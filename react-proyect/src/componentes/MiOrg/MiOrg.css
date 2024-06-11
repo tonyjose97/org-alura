@@ -1,0 +1,23 @@
+.miorg{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.titulo{
+    color: #6278F7;
+    padding-bottom: 8px;
+    border-bottom: 4px solid #6278F7;
+    font-size: 34px;
+    text-align: center;
+    margin-left: 100px;
+    display: inline-block
+}
+
+.miorg img{
+    position: relative;
+    left:  10%;
+    cursor: pointer;
+}

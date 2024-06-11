@@ -1,0 +1,29 @@
+.equipo{
+    width: 100%;
+    background-color: #D9F7E9;
+    font-size: 32px;
+    padding: 32px;
+    text-align: center;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.equipo input{
+    position: absolute;
+    right: 20px;
+}
+
+.equipo h3{
+    border-bottom: 4px solid;
+    color: #212121;
+    display: inline-block;
+    padding-bottom: 8px;
+    font-weight: 400;
+}
+
+.colaboradores{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

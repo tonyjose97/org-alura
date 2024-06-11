@@ -1,0 +1,54 @@
+.colaborador{ 
+    width: 280px;
+    height: 350px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background: #ffffff;
+    position: relative;
+}
+
+.encabezado{
+    display: inline-block;
+    width: 100%;
+    height: 30%;
+    background: #57C278;
+    border-top-right-radius:  20px;
+    border-top-left-radius:  20px;
+    
+    
+}
+
+.encabezado img{
+    margin-top: 40px;
+    width: 50%;
+    border-radius: 50%;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 15px rgb(0, 0, 0,0.08);
+    border-radius: 0 0 10px 10px;
+    background: #ffffff;
+}
+
+.info h4{
+    color: #6278F7;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 8px;
+    line-height: 22px;
+    
+}
+
+.info h5{
+    margin: 5px 0 0 0 ;
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+
+.eliminar{
+    position: absolute;
+    left: 245px;
+}

@@ -1,0 +1,47 @@
+.footer{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: center;
+}
+
+.img{
+    width: 40px;
+    height: 40px;
+    background: white;
+    color: white;
+}
+
+.redes{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+strong{
+    margin: 15px auto;
+    color: white;
+}
+
+.circulo{
+    width: 60px;
+    height: 60px;
+    color: white;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.circulo2{
+    width: 100px;
+    height: 100px;
+    color: white;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.contenedor_circulo{
+    display: flex;
+    align-items:center ;
+    justify-content: space-evenly;
+}
